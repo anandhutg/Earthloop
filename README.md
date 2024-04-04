@@ -1,20 +1,7 @@
-<<<<<<< HEAD
-# codeshefs
+This is a documentation intended to give a breif idea regarding the Beyond The Loop Hackathon Project:
+Earth Loop
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# ilahia_hackathon
->>>>>>> origin/main
+Abstract:
+Our App acts as a platform for promoting seamless recyclable waste management                                                 
+through a well organised system of collectors, thus acting as a crcuial tool 
+for proper and economic waste management in urban areas.
