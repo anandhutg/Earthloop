@@ -36,7 +36,7 @@ class _ReportState extends State<Report> {
             label: 'Price List',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.report_rounded),
+            icon: Icon(Icons.note_alt),
             label: 'Report',
           ),
         ],

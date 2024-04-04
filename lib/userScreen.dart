@@ -140,21 +140,21 @@ class _AccountState extends State<Account> {
                 ),
               ),
 
-              SizedBox(
-                width: 105,height: 100,
-                child: ElevatedButton(
-                  onPressed: _buttonDisabled3 ? null : _onButtonClicked3,
-                  child: Text('Biomedical (0 /kg)'),
-                  style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.fromLTRB(0, 0, 0, 50),
-                child: TextField(
-                  controller: bioController,
-                  decoration: InputDecoration(labelText: "Enter weight in kilogram"),
-                ),
-              ),
+              // SizedBox(
+              //   width: 105,height: 100,
+              //   child: ElevatedButton(
+              //     onPressed: _buttonDisabled3 ? null : _onButtonClicked3,
+              //     child: Text('Biomedical (0 /kg)'),
+              //     style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
+              //   ),
+              // ),
+              // Padding(
+              //   padding: const EdgeInsets.fromLTRB(0, 0, 0, 50),
+              //   child: TextField(
+              //     controller: bioController,
+              //     decoration: InputDecoration(labelText: "Enter weight in kilogram"),
+              //   ),
+              // ),
               const SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
@@ -182,7 +182,7 @@ class _AccountState extends State<Account> {
             label: 'Price List',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.report_rounded),
+            icon: Icon(Icons.note_alt),
             label: 'Report',
           ),
         ],

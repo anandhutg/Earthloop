@@ -1,3 +1,4 @@
+import 'package:codeshefs/maps.dart';
 import 'package:flutter/material.dart';
 
 class pickup extends StatefulWidget {
@@ -44,11 +45,11 @@ class _pickupState extends State<pickup> {
         ListView(
           children: [
             Image.asset('assets/images/pickup.jpeg'),
-            Image.asset('assets/images/pickuproute.jpeg'),
+            //Image.asset('assets/images/pickuproute.jpeg'),
             ElevatedButton(
               onPressed: () {
 
-
+                Navigator.push(context, MaterialPageRoute(builder: (context) => MapPage()));
               },
               child: Text('Receive Order'),
             ),

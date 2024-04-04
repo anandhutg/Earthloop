@@ -45,6 +45,9 @@ dependencies:
   camera: ^0.10.5+5
   path_provider: ^2.1.1
   path: ^1.8.2
+  flutter_map: 0.14.0
+  latlong2:
+  convert: 3.1.1
 
 dev_dependencies:
   flutter_test:
